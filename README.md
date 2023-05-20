@@ -1,45 +1,28 @@
-# AR Filter Generator
+# Git Repository: Image Printing and 3D Object Rendering Showcase
 
-The AR Filter Generator is a powerful tool for creating augmented reality (AR) filters using computer vision techniques. It enables the development of immersive AR experiences by leveraging transformation, camera calibration, and feature detection. Inspired by the popularity of Instagram filters, this project allows users to unleash their creativity and build stunning visual effects.
+This Git repository serves as a showcase for two projects that demonstrate advanced image printing and 3D object rendering techniques. The projects are described below:
 
-## Getting Started
+## Project 1: Image Printing and Video Creation
 
-To get started with the AR Filter Generator, follow these steps:
+The objective of this project is to showcase the capabilities of printing out an image onto a planar surface and creating a dynamic video with mesmerizing transformations. By applying rotation, translation, and scale changes to the image, the resulting movie presents the image from various perspectives and orientations.
 
-1. Clone the repository to your local machine.
-2. Install the necessary dependencies using `pip install -r requirements.txt`.
-3. Calibrate your camera by following the instructions in the `calibration_notebook.ipynb` file.
-4. Explore the different modules and scripts available in the repository to understand the functionalities and possibilities of the AR Filter Generator.
+### Key Features:
+- Image Printing: Experience the ability to print any image onto a planar surface.
+- Dynamic Video Generation: Witness the creation of a captivating video by applying transformations such as rotation, translation, and scale changes to the printed image.
+- Customization: Explore the parameters that allow you to control the speed and intensity of the image transformations.
+- High-Quality Output: Enjoy the visually appealing and immersive experience of the resulting high-quality video.
 
-## Usage
+## Project 2: 3D Object Rendering
 
-To create your own AR filters:
+This project highlights the impressive rendering capabilities for 3D objects, focusing specifically on a realistic drill representation in a video. Immerse yourself in the world of computer-generated imagery as you witness the lifelike rendering of the drill.
 
-1. Choose a feature-rich image as the reference image for tracking.
-2. Print the reference image and record a video of it on a planar surface, capturing various rotations, translations, and scale changes.
-3. Use the `perspective_warping.py` script to perform perspective warping on the recorded video, transforming it based on the tracked features.
-4. Calibrate the camera using the printed chessboard and the provided calibration notebook.
-5. Generate the final AR filter using the `planar_AR.py` script. Replace the warping lines with appropriate lines to enhance the AR visualization.
-6. Experiment with rendering more elaborate 3D objects using the provided drill files and functions.
-
-## Contributing
-
-Contributions to the AR Filter Generator project are welcome! Please submit a pull request for any ideas, improvements, or bug fixes. For major changes, open an issue to discuss the proposed modifications.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-## Acknowledgments
-
-We would like to express our gratitude to our Computer Vision lecturer for their guidance throughout this project, as well as to our project partner, GAL, for their invaluable collaboration and support.
+### Key Features:
+- 3D Object Rendering: Discover the advanced rendering techniques employed to create a virtual representation of a drill.
+- Realistic Materials and Textures: Observe how lifelike materials and textures enhance the visual appearance of the rendered drill.
+- Lighting and Shadows: Experience the sense of depth and realism created through the skillful use of lighting and shadow effects.
+- Customization: Customize camera angles, lighting conditions, and rendering quality to achieve your desired output.
+- Output Formats: Save the rendered videos in various formats, ensuring compatibility with different platforms and devices.
 
 ## Contact
 
-For any questions, suggestions, or collaborations, feel free to reach out to us:
-
-- Email: Omri.196s@gmail.com
-- LinkedIn: (https://www.linkedin.com/in/omri-shahar-38909a1b0/)
-Let's collaborate and create amazing AR experiences together!
-
-#AugmentedReality #ARDevelopment #ComputerVision #Transformation #CameraCalibration #FeatureDetection
+If you have any questions, feedback, or suggestions regarding these showcase projects, please don't hesitate to contact us at [Omri.1996s@gmail.com](mailto:email@example.com). We appreciate your interest and are happy to assist you.
