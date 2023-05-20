@@ -1,49 +1,45 @@
-AR Filter Generator
-The AR Filter Generator is a project designed to enable the creation of augmented reality (AR) filters using computer vision techniques. By leveraging concepts such as transformation, camera calibration, and feature detection, this project provides a platform to develop immersive and engaging AR experiences. Whether you're a developer, designer, or AR enthusiast, this generator gives you the tools to unleash your creativity and build stunning visual effects.
+# AR Filter Generator
 
-Getting Started
-To get started with the AR Filter Generator, follow the steps below:
+The AR Filter Generator is a powerful tool for creating augmented reality (AR) filters using computer vision techniques. It enables the development of immersive AR experiences by leveraging transformation, camera calibration, and feature detection. Inspired by the popularity of Instagram filters, this project allows users to unleash their creativity and build stunning visual effects.
 
-Clone the repository to your local machine using the following command:
+## Getting Started
 
-bash
-Copy code
-git clone <repository-url>
-Install the necessary dependencies by running:
+To get started with the AR Filter Generator, follow these steps:
 
-Copy code
-pip install -r requirements.txt
-Calibrate your camera by following the instructions in the calibration_notebook.ipynb file. This calibration process will provide the required camera parameters for accurate AR visualization.
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies using `pip install -r requirements.txt`.
+3. Calibrate your camera by following the instructions in the `calibration_notebook.ipynb` file.
+4. Explore the different modules and scripts available in the repository to understand the functionalities and possibilities of the AR Filter Generator.
 
-Explore the different modules and scripts available in the repository to understand the functionalities and possibilities of the AR Filter Generator.
+## Usage
 
-Usage
-To create your own AR filters, follow these steps:
+To create your own AR filters:
 
-Choose a feature-rich image as the reference image for tracking the desired features.
+1. Choose a feature-rich image as the reference image for tracking.
+2. Print the reference image and record a video of it on a planar surface, capturing various rotations, translations, and scale changes.
+3. Use the `perspective_warping.py` script to perform perspective warping on the recorded video, transforming it based on the tracked features.
+4. Calibrate the camera using the printed chessboard and the provided calibration notebook.
+5. Generate the final AR filter using the `planar_AR.py` script. Replace the warping lines with appropriate lines to enhance the AR visualization.
+6. Experiment with rendering more elaborate 3D objects using the provided drill files and functions.
 
-Print the reference image and record a video of it on a planar surface while capturing various rotations, translations, and scale changes. This video will serve as the input for the AR filter generation.
+## Contributing
 
-Use the perspective_warping.py script to perform perspective warping on the recorded video, transforming it based on the tracked features.
+Contributions to the AR Filter Generator project are welcome! Please submit a pull request for any ideas, improvements, or bug fixes. For major changes, open an issue to discuss the proposed modifications.
 
-Once the camera is calibrated using the printed chessboard and the provided calibration notebook, use the planar_AR.py script to generate the final AR filter. Replace the warping lines with appropriate lines to enhance the AR visualization.
+## License
 
-To go beyond basic shapes, experiment with rendering more elaborate 3D objects by using the provided drill files and functions.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-Contributing
-We welcome contributions to the AR Filter Generator project. If you have any ideas, improvements, or bug fixes, please submit a pull request. For major changes, kindly open an issue first to discuss the proposed modifications.
+## Acknowledgments
 
-License
-This project is licensed under the MIT License.
-
-Acknowledgments
 We would like to express our gratitude to our Computer Vision lecturer for their guidance throughout this project, as well as to our project partner, GAL, for their invaluable collaboration and support.
 
-Contact
-For any questions, suggestions, or collaborations, please feel free to reach out to us:
+## Contact
 
-Email: Omris.1996s@gmail.com
-LinkedIn: https://www.linkedin.com/in/omri-shahar-38909a1b0/
+For any questions, suggestions, or collaborations, feel free to reach out to us:
+
+- Email: Omri.196s@gmail.com
+- LinkedIn: (https://www.linkedin.com/in/omri-shahar-38909a1b0/)
 Let's collaborate and create amazing AR experiences together!
 
 #AugmentedReality #ARDevelopment #ComputerVision #Transformation #CameraCalibration #FeatureDetection
